@@ -1,0 +1,65 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\SOURCES\\VsProjectTypeRepository\\dotnet_Core_Actor_Service.Interfaces\\dotnet_Core_Actor_Service.Interfaces.csproj",
+    "projectName": "dotnet_Core_Actor_Service.Interfaces",
+    "projectPath": "C:\\SOURCES\\VsProjectTypeRepository\\dotnet_Core_Actor_Service.Interfaces\\dotnet_Core_Actor_Service.Interfaces.csproj",
+    "outputPath": "C:\\SOURCES\\VsProjectTypeRepository\\dotnet_Core_Actor_Service.Interfaces\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.ServiceFabric": {
+          "target": "Package",
+          "version": "[6.1.480, )"
+        },
+        "Microsoft.ServiceFabric.Actors": {
+          "target": "Package",
+          "version": "[3.0.480, )"
+        },
+        "Microsoft.ServiceFabric.Data": {
+          "target": "Package",
+          "version": "[3.0.480, )"
+        },
+        "Microsoft.ServiceFabric.Services": {
+          "target": "Package",
+          "version": "[3.0.480, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  },
+  "runtimes": {
+    "win7-x64": {
+      "#import": []
+    }
+  }
+}

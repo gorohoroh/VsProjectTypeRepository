@@ -1,0 +1,44 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\SOURCES\\VsProjectTypeRepository\\Code_Refactoring_dotnet_Standard\\Code_Refactoring_dotnet_Standard\\Code_Refactoring_dotnet_Standard.csproj",
+    "projectName": "Code_Refactoring_dotnet_Standard",
+    "projectPath": "C:\\SOURCES\\VsProjectTypeRepository\\Code_Refactoring_dotnet_Standard\\Code_Refactoring_dotnet_Standard\\Code_Refactoring_dotnet_Standard.csproj",
+    "outputPath": "C:\\SOURCES\\VsProjectTypeRepository\\Code_Refactoring_dotnet_Standard\\Code_Refactoring_dotnet_Standard\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard1.3"
+    ],
+    "frameworks": {
+      "netstandard1.3": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard1.3": {
+      "dependencies": {
+        "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[1.6.1, )",
+          "autoReferenced": true
+        }
+      }
+    }
+  }
+}

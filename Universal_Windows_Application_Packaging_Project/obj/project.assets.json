@@ -1,0 +1,75 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCore,Version=v5.0": {},
+    ".NETCore,Version=v5.0/win10-arm": {},
+    ".NETCore,Version=v5.0/win10-arm-aot": {},
+    ".NETCore,Version=v5.0/win10-x64": {},
+    ".NETCore,Version=v5.0/win10-x64-aot": {},
+    ".NETCore,Version=v5.0/win10-x86": {},
+    ".NETCore,Version=v5.0/win10-x86-aot": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCore,Version=v5.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Jura.Gorohovsky\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\SOURCES\\VsProjectTypeRepository\\Universal_Windows_Application_Packaging_Project\\Universal_Windows_Application_Packaging_Project.wapproj",
+      "projectName": "Universal_Windows_Application_Packaging_Project",
+      "projectPath": "C:\\SOURCES\\VsProjectTypeRepository\\Universal_Windows_Application_Packaging_Project\\Universal_Windows_Application_Packaging_Project.wapproj",
+      "packagesPath": "C:\\Users\\Jura.Gorohovsky\\.nuget\\packages\\",
+      "outputPath": "C:\\SOURCES\\VsProjectTypeRepository\\Universal_Windows_Application_Packaging_Project\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Jura.Gorohovsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcore50"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.myget.org/F/youtracksharp/api/v3/index.json": {},
+        "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+      },
+      "frameworks": {
+        "netcore50": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "netcore50": {}
+    },
+    "runtimes": {
+      "win10-arm": {
+        "#import": []
+      },
+      "win10-arm-aot": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x64-aot": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      },
+      "win10-x86-aot": {
+        "#import": []
+      }
+    }
+  }
+}

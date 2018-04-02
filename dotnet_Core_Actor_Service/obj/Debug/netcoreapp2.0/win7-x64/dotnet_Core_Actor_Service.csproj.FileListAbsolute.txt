@@ -1,0 +1,4 @@
+C:\SOURCES\VsProjectTypeRepository\dotnet_Core_Actor_Service\bin\Debug\netcoreapp2.0\win7-x64\dotnet_Core_Actor_Service.Interfaces.dll
+C:\SOURCES\VsProjectTypeRepository\dotnet_Core_Actor_Service\obj\Debug\netcoreapp2.0\win7-x64\dotnet_Core_Actor_Service.csproj.CoreCompileInputs.cache
+C:\SOURCES\VsProjectTypeRepository\dotnet_Core_Actor_Service\obj\Debug\netcoreapp2.0\win7-x64\dotnet_Core_Actor_Service.AssemblyInfoInputs.cache
+C:\SOURCES\VsProjectTypeRepository\dotnet_Core_Actor_Service\obj\Debug\netcoreapp2.0\win7-x64\dotnet_Core_Actor_Service.AssemblyInfo.cs

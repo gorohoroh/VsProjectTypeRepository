@@ -1,0 +1,75 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\SOURCES\\VsProjectTypeRepository\\dotnet_Stateless_ASP.NET_Core\\dotnet_Stateless_ASP.NET_Core.csproj",
+    "projectName": "dotnet_Stateless_ASP.NET_Core",
+    "projectPath": "C:\\SOURCES\\VsProjectTypeRepository\\dotnet_Stateless_ASP.NET_Core\\dotnet_Stateless_ASP.NET_Core.csproj",
+    "outputPath": "C:\\SOURCES\\VsProjectTypeRepository\\dotnet_Stateless_ASP.NET_Core\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "net471"
+    ],
+    "frameworks": {
+      "net471": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net471": {
+      "dependencies": {
+        "Microsoft.AspNetCore": {
+          "target": "Package",
+          "version": "[2.0.2, )"
+        },
+        "Microsoft.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "[2.0.3, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Razor.ViewCompilation": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )"
+        },
+        "Microsoft.AspNetCore.StaticFiles": {
+          "target": "Package",
+          "version": "[2.0.2, )"
+        },
+        "Microsoft.ServiceFabric": {
+          "target": "Package",
+          "version": "[6.1.480, )"
+        },
+        "Microsoft.ServiceFabric.AspNetCore.Kestrel": {
+          "target": "Package",
+          "version": "[3.0.480, )"
+        },
+        "Microsoft.ServiceFabric.Data": {
+          "target": "Package",
+          "version": "[3.0.480, )"
+        },
+        "Microsoft.ServiceFabric.Services": {
+          "target": "Package",
+          "version": "[3.0.480, )"
+        },
+        "Microsoft.VisualStudio.Web.BrowserLink": {
+          "target": "Package",
+          "version": "[2.0.2, )"
+        }
+      }
+    }
+  },
+  "runtimes": {
+    "win7-x64": {
+      "#import": []
+    }
+  }
+}

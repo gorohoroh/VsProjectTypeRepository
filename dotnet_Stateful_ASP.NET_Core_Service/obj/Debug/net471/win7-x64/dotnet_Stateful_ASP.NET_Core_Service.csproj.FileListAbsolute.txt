@@ -1,0 +1,4 @@
+C:\SOURCES\VsProjectTypeRepository\dotnet_Stateful_ASP.NET_Core_Service\bin\Debug\net471\win7-x64\dotnet_Stateful_ASP.NET_Core_Service.exe.config
+C:\SOURCES\VsProjectTypeRepository\dotnet_Stateful_ASP.NET_Core_Service\obj\Debug\net471\win7-x64\dotnet_Stateful_ASP.NET_Core_Service.csproj.CoreCompileInputs.cache
+C:\SOURCES\VsProjectTypeRepository\dotnet_Stateful_ASP.NET_Core_Service\obj\Debug\net471\win7-x64\dotnet_Stateful_ASP.NET_Core_Service.AssemblyInfoInputs.cache
+C:\SOURCES\VsProjectTypeRepository\dotnet_Stateful_ASP.NET_Core_Service\obj\Debug\net471\win7-x64\dotnet_Stateful_ASP.NET_Core_Service.AssemblyInfo.cs

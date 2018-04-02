@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\SOURCES\\VsProjectTypeRepository\\Standalone_Code_Analysis_Tool\\Standalone_Code_Analysis_Tool.csproj",
+    "projectName": "Standalone_Code_Analysis_Tool",
+    "projectPath": "C:\\SOURCES\\VsProjectTypeRepository\\Standalone_Code_Analysis_Tool\\Standalone_Code_Analysis_Tool.csproj",
+    "outputPath": "C:\\SOURCES\\VsProjectTypeRepository\\Standalone_Code_Analysis_Tool\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "net461"
+    ],
+    "frameworks": {
+      "net461": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net461": {
+      "dependencies": {
+        "Microsoft.Build": {
+          "target": "Package",
+          "version": "[15.3.409, )"
+        },
+        "Microsoft.Build.Tasks.Core": {
+          "target": "Package",
+          "version": "[15.3.409, )"
+        },
+        "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      }
+    }
+  },
+  "runtimes": {
+    "win7-x86": {
+      "#import": []
+    }
+  }
+}

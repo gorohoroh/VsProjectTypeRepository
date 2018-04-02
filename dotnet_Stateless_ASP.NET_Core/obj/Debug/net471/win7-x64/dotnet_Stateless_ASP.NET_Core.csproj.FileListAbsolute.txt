@@ -1,0 +1,5 @@
+C:\SOURCES\VsProjectTypeRepository\dotnet_Stateless_ASP.NET_Core\bin\Debug\net471\win7-x64\dotnet_Stateless_ASP.NET_Core.exe.config
+C:\SOURCES\VsProjectTypeRepository\dotnet_Stateless_ASP.NET_Core\obj\Debug\net471\win7-x64\dotnet_Stateless_ASP.NET_Core.csprojResolveAssemblyReference.cache
+C:\SOURCES\VsProjectTypeRepository\dotnet_Stateless_ASP.NET_Core\obj\Debug\net471\win7-x64\dotnet_Stateless_ASP.NET_Core.csproj.CoreCompileInputs.cache
+C:\SOURCES\VsProjectTypeRepository\dotnet_Stateless_ASP.NET_Core\obj\Debug\net471\win7-x64\dotnet_Stateless_ASP.NET_Core.AssemblyInfoInputs.cache
+C:\SOURCES\VsProjectTypeRepository\dotnet_Stateless_ASP.NET_Core\obj\Debug\net471\win7-x64\dotnet_Stateless_ASP.NET_Core.AssemblyInfo.cs

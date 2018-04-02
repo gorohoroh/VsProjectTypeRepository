@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  asp.net_core_2.0_web_application_web_mvc_with_docker:
+    build:
+      context: C:\SOURCES\VsProjectTypeRepository
+      dockerfile: ASP.NET_Core_2.0_Web_Application_Web_MVC_with_Docker\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: aspnetcore20webapplicationwebmvcwithdocker
+    ports:
+    - 80/tcp
+version: '3.0'
