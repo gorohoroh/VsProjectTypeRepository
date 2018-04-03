@@ -1,0 +1,12 @@
+{
+  "name": "ts_node.js_blank_web_application",
+  "version": "0.0.0",
+  "description": "TS_Node.js_Blank_Web_Application",
+  "main": "app.js",
+  "author": {
+    "name": "Jura.Gorohovsky"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.87"
+  }
+}

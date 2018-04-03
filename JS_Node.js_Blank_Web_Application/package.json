@@ -1,0 +1,9 @@
+{
+  "name": "js_node.js_blank_web_application",
+  "version": "0.0.0",
+  "description": "JS_Node.js_Blank_Web_Application",
+  "main": "server.js",
+  "author": {
+    "name": "Jura.Gorohovsky"
+  }
+}

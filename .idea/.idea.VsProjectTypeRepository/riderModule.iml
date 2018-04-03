@@ -5,6 +5,9 @@
     <content url="file://$MODULE_DIR$/../../../ASP.NET_Web_Application_Empty" />
     <content url="file://$MODULE_DIR$/../../../Android_Blank_App" />
     <content url="file://$MODULE_DIR$/../../../Service_Fabric_Application_dotnet_Core_2.0_Stateless_Service" />
+    <content url="file://$MODULE_DIR$/../../../VB_Desktop_WPF_App" />
+    <content url="file://$MODULE_DIR$/../../../VB_Universal_Blank_App" />
+    <content url="file://$MODULE_DIR$/../../../VB_WCF_Syndication_Service_Library" />
     <content url="file://$MODULE_DIR$/../.." />
     <content url="file://$MODULE_DIR$/../../../dotnet_Core_Stateless_Service" />
     <content url="file://$USER_HOME$/.nuget/packages/mstest.testadapter/1.1.18/build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" />

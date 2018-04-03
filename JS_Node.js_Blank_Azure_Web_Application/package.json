@@ -1,0 +1,14 @@
+{
+  "name": "js_node.js_blank_azure_web_application",
+  "version": "0.0.0",
+  "description": "JS_Node.js_Blank_Azure_Web_Application",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": "Jura.Gorohovsky"
+  }
+}

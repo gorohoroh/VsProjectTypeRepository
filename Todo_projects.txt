@@ -1,11 +1,14 @@
 Project template issues encountered:
-* Office and SharePoint > SharePoint solutions > all SP 2016 items (install SharePoint Foundation or SharePoint Server 16.0)
-* Office and SharePoint > VSTO Add-ins > all "template" and "document" items (.NET Programmability Tools, more specifically PIAs, must be installed but can't get my ancient Office installer to modify anything)
-* Cloud > Azure Resource Group (about project type: https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy) - VS templating error similar to https://developercommunity.visualstudio.com/content/problem/280/cant-create-a-new-blank-uwp-project.html (could try repairing Azure SDK later)
-* Extensibility > C# Item Template, C# Project Template, VSIX Project ("The vstemplate file references the wizard class 'Microsoft.VSSDK.TemplateWizard.TemplateTemplateWizard', which does not exist in the assembly 'System.Design...'")
+* C# > Office and SharePoint > SharePoint solutions > all SP 2016 items (install SharePoint Foundation or SharePoint Server 16.0)
+* C# > Office and SharePoint > VSTO Add-ins > all "template" and "document" items (.NET Programmability Tools, more specifically PIAs, must be installed but can't get my ancient Office installer to modify anything)
+* C# > Cloud > Azure Resource Group originally not created due to errors but similar projects under the "Visual Basic" category were all created, and they're actually deployproj's, and don't contain any .NET code, which means they should be identical between C# and VB.NET
+* VB.NET > Web > Previous versions > ASP.NET Dynamic Data Entities Web Site - template not found
+* VB.NET > Office and SharePoint - skipping for now (TODO later)
 
 Notes:
 * .NET Core > Web - full duplicates of Web > ASP.NET Core
-* Cloud > ASP.NET Web Application - full duplicates of Web > ASP.NET
+* C#/VB.NET > Cloud > ASP.NET Web Application - full duplicates of Web > ASP.NET
 * Under Cloud > Service Fabric > .NET Core 2.0, Service Fabric projects that are explicitly created are named "Service_Fabric_Application_*", and for each of them, Visual Studio creates an associated service project that is named "dotNet_Core_*"
 * Cross-Platform > Mobile App (Xamarin.Forms) > Master Detail > .NET Standard - not following naming convention because of a path too long error (
+* JavaScript, TypeScript > Node.js > From existing Node.js code - skipped (no Node.js code immediately at hand)
+* Only IronPython-based projects created from the "Python" category, others skipped as completely out of scope

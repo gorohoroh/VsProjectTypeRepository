@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="VB_Azure_Cloud_Service_WCF_Service_Web_Role.Service1" CodeBehind="Service1.svc.vb" %>

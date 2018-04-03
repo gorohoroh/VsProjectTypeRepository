@@ -1,0 +1,14 @@
+{
+  "name": "js_node.js_azure_cloud_service_worker_role",
+  "version": "0.0.0",
+  "description": "JS_Node.js_Azure_Cloud_Service_Worker_Role",
+  "scripts": {
+    "start": "node worker"
+  },
+  "author": {
+    "name": "Jura.Gorohovsky"
+  },
+  "engines": {
+    "node": "~6.10.2"
+  }
+}

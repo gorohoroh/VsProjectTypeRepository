@@ -1,0 +1,64 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\SOURCES\\VsProjectTypeRepository\\VB_Analyzer_with_Code_Fix_dotnet_Standard\\VB_Analyzer_with_Code_Fix_dotnet_Standard.Test\\VB_Analyzer_with_Code_Fix_dotnet_Standard.Test.vbproj",
+    "projectName": "VB_Analyzer_with_Code_Fix_dotnet_Standard.Test",
+    "projectPath": "C:\\SOURCES\\VsProjectTypeRepository\\VB_Analyzer_with_Code_Fix_dotnet_Standard\\VB_Analyzer_with_Code_Fix_dotnet_Standard.Test\\VB_Analyzer_with_Code_Fix_dotnet_Standard.Test.vbproj",
+    "outputPath": "C:\\SOURCES\\VsProjectTypeRepository\\VB_Analyzer_with_Code_Fix_dotnet_Standard\\VB_Analyzer_with_Code_Fix_dotnet_Standard.Test\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "C:\\SOURCES\\VsProjectTypeRepository\\VB_Analyzer_with_Code_Fix_dotnet_Standard\\VB_Analyzer_with_Code_Fix_dotnet_Standard\\VB_Analyzer_with_Code_Fix_dotnet_Standard.vbproj": {
+            "projectPath": "C:\\SOURCES\\VsProjectTypeRepository\\VB_Analyzer_with_Code_Fix_dotnet_Standard\\VB_Analyzer_with_Code_Fix_dotnet_Standard\\VB_Analyzer_with_Code_Fix_dotnet_Standard.vbproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "MSTest.TestAdapter": {
+          "target": "Package",
+          "version": "[1.1.18, )"
+        },
+        "MSTest.TestFramework": {
+          "target": "Package",
+          "version": "[1.1.18, )"
+        },
+        "Microsoft.CodeAnalysis.VisualBasic.Workspaces": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.3.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

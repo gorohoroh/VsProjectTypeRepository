@@ -1,0 +1,17 @@
+{
+  "name": "ts_node.js_blank_azure_web_application",
+  "version": "0.0.0",
+  "description": "TS_Node.js_Blank_Azure_Web_Application",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": {
+    "name": "Jura.Gorohovsky"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.87"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  }
+}

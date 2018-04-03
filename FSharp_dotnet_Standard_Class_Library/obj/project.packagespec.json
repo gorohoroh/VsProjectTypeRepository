@@ -1,0 +1,43 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\SOURCES\\VsProjectTypeRepository\\FSharp_dotnet_Standard_Class_Library\\FSharp_dotnet_Standard_Class_Library.fsproj",
+    "projectName": "FSharp_dotnet_Standard_Class_Library",
+    "projectPath": "C:\\SOURCES\\VsProjectTypeRepository\\FSharp_dotnet_Standard_Class_Library\\FSharp_dotnet_Standard_Class_Library.fsproj",
+    "outputPath": "C:\\SOURCES\\VsProjectTypeRepository\\FSharp_dotnet_Standard_Class_Library\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "FSharp.Core": {
+          "target": "Package",
+          "version": "[4.3.*, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.1, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>2.9</ProductVersion>
+    <ProjectGuid>9edb9de7-aef7-4bd1-987d-fdef3f0e3933</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VB_Azure_Cloud_Service</RootNamespace>
+    <AssemblyName>VB_Azure_Cloud_Service</AssemblyName>
+    <StartDevelopmentStorage>True</StartDevelopmentStorage>
+    <Name>VB_Azure_Cloud_Service</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <!-- Items for the project -->
+  <ItemGroup>
+    <ServiceDefinition Include="ServiceDefinition.csdef" />
+    <ServiceConfiguration Include="ServiceConfiguration.Local.cscfg" />
+    <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VB_Azure_Cloud_Service_ASP.NET_Web_Role\VB_Azure_Cloud_Service_ASP.NET_Web_Role.vbproj">
+      <Name>VB_Azure_Cloud_Service_ASP.NET_Web_Role</Name>
+      <Project>{27f603dc-0f33-4a25-9910-09315ee9776b}</Project>
+      <Private>True</Private>
+      <RoleType>Web</RoleType>
+      <RoleName>VB_Azure_Cloud_Service_ASP.NET_Web_Role</RoleName>
+      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+    </ProjectReference>
+    <ProjectReference Include="..\VB_Azure_Cloud_Service_WCF_Service_Web_Role\VB_Azure_Cloud_Service_WCF_Service_Web_Role.vbproj">
+      <Name>VB_Azure_Cloud_Service_WCF_Service_Web_Role</Name>
+      <Project>{bd4e1380-ee63-4947-894d-b74b98190317}</Project>
+      <Private>True</Private>
+      <RoleType>Web</RoleType>
+      <RoleName>VB_Azure_Cloud_Service_WCF_Service_Web_Role</RoleName>
+      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+    </ProjectReference>
+    <ProjectReference Include="..\VB_Azure_Cloud_Service_Worker_Role\VB_Azure_Cloud_Service_Worker_Role.vbproj">
+      <Name>VB_Azure_Cloud_Service_Worker_Role</Name>
+      <Project>{abcbc0b8-a48c-4934-8ea5-61f1e52a1474}</Project>
+      <Private>True</Private>
+      <RoleType>Worker</RoleType>
+      <RoleName>VB_Azure_Cloud_Service_Worker_Role</RoleName>
+      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+    </ProjectReference>
+    <ProjectReference Include="..\VB_Azure_Cloud_Service_Worker_Role_with_Service_Bus_Queue\VB_Azure_Cloud_Service_Worker_Role_with_Service_Bus_Queue.vbproj">
+      <Name>VB_Azure_Cloud_Service_Worker_Role_with_Service_Bus_Queue</Name>
+      <Project>{e7245b41-2e25-4cb2-83c4-34dc21b01997}</Project>
+      <Private>True</Private>
+      <RoleType>Worker</RoleType>
+      <RoleName>VB_Azure_Cloud_Service_Worker_Role_with_Service_Bus_Queue</RoleName>
+      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="VB_Azure_Cloud_Service_ASP.NET_Web_RoleContent\" />
+    <Folder Include="VB_Azure_Cloud_Service_WCF_Service_Web_RoleContent\" />
+    <Folder Include="VB_Azure_Cloud_Service_Worker_RoleContent\" />
+    <Folder Include="VB_Azure_Cloud_Service_Worker_Role_with_Service_Bus_QueueContent\" />
+  </ItemGroup>
+  <ItemGroup>
+    <DiagnosticsConfiguration Include="VB_Azure_Cloud_Service_ASP.NET_Web_RoleContent\diagnostics.wadcfgx" />
+    <DiagnosticsConfiguration Include="VB_Azure_Cloud_Service_WCF_Service_Web_RoleContent\diagnostics.wadcfgx" />
+    <DiagnosticsConfiguration Include="VB_Azure_Cloud_Service_Worker_RoleContent\diagnostics.wadcfgx" />
+    <DiagnosticsConfiguration Include="VB_Azure_Cloud_Service_Worker_Role_with_Service_Bus_QueueContent\diagnostics.wadcfgx" />
+  </ItemGroup>
+  <!-- Import the target files for this project template -->
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <CloudExtensionsDir Condition=" '$(CloudExtensionsDir)' == '' ">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Windows Azure Tools\2.9\</CloudExtensionsDir>
+  </PropertyGroup>
+  <Import Project="$(CloudExtensionsDir)Microsoft.WindowsAzure.targets" />
+</Project>

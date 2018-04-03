@@ -1,0 +1,14 @@
+{
+  "name": "js_node.js_azure_cloud_service_web_role",
+  "version": "0.0.0",
+  "description": "JS_Node.js_Azure_Cloud_Service_Web_Role",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": "Jura.Gorohovsky"
+  }
+}
